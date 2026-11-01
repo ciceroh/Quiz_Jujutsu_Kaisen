@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz De Jujutsu Kaisen</title>
+  <link rel="icon"  type="image/jpg"   href="JJK.png"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="quiz-container">
+    <!-- Tela inicial -->
+    <div id="start-screen" class="start-screen">
+      <p class="eyebrow">QUIZ DE JUJUTSU KAISEN</p>
+      <h1>Está pronto para o desafio?</h1>
+      <p class="start-description">Teste seus conhecimentos e veja quantas perguntas consegue acertar.</p>
+      <button id="start-btn" class="btn">Começar quiz</button>
+    </div>
+
+    <!-- Tela do Quiz -->
+    <div id="quiz-screen" class="hidden">
+      <div class="quiz-header">
+        <span id="question-number">Pergunta 1 de 4</span>
+        <div class="score-tracker">Pontos: <span id="score-display">0</span></div>
+      </div>
+
+      <h2 id="question-text">Texto da Pergunta Aqui</h2>
+
+      <div id="options-container" class="options-container">
+        <!-- As alternativas serão geradas via JS -->
+      </div>
+
+      <button id="next-btn" class="btn" style="display: none;">Próxima Pergunta</button>
+    </div>
+
+    <!-- Tela do Resultado Final (Inicia Escondida) -->
+    <div id="result-screen" class="hidden">
+      <h2>Quiz Concluído! 🎉</h2>
+      <p>Sua pontuação final foi:</p>
+      <div id="final-score">0 / 0</div>
+      <button id="restart-btn" class="btn">Tentar Novamente</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
