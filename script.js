@@ -8,7 +8,7 @@ const originalQuestions = [
   {
     question: "Quantas armas o Toji Fushiguro ja utilizou?",
     options: ["8", "7", "6", "5", "4"],
-    answer: 3
+    answer: 2
   },
   {
     question: "Quantas pessoas ja utilizaram a Nuvem Brincalhona?",
@@ -21,7 +21,7 @@ const originalQuestions = [
     answer: 0
   },
   {
-    question: "Quantas vezes o Yudi Itadori Já morreu?",
+    question: "Quantas vezes o Yuji Itadori Já morreu?",
     options: ["3", "2", "1", "0", "4"],
     answer: 1
   },
@@ -72,7 +72,7 @@ const originalQuestions = [
   },
   {
     question: "O que aumenta a força e quantidade das maldições?",
-    options: ["elas nãoFicam mais fortes", "A balaçade poder do mundo", "A energia dos feiticeiros", "O medo das pessoas"],
+    options: ["Elas não ficam mais fortes", "A balaçade poder do mundo", "A energia dos feiticeiros", "O medo das pessoas"],
     answer: 1
   },
   {
@@ -82,7 +82,7 @@ const originalQuestions = [
   },
   {
     question: "Qual dessas informações é real?",
-    options: ["A Maki é mais Forte que o Toji", "As Sombras de todos os usuários das 10 sombras são iguais", "O Yudi Itadori é o mais forte de todos", "A energia de um feiticeiro é infinita"],
+    options: ["A Maki é mais Forte que o Toji", "As Sombras de todos os usuários das 10 sombras são iguais", "O Yuji Itadori é o mais forte de todos", "A energia de um feiticeiro é infinita"],
     answer: 1
   },
   {
@@ -92,11 +92,11 @@ const originalQuestions = [
   },
   {
     question: "Quem foi o Primeiro Amor da Mai Zenin?",
-    options: ["Takada", "Aoi Todo", "Maki Zenin", "Yudi Itadori"],
+    options: ["Takada", "Aoi Todo", "Maki Zenin", "Megumi Fushiguro"],
     answer: 2
   },
   {
-    question: "Qual o tipo de mulher do Yudi Itadori?",
+    question: "Qual o tipo de mulher do Yuji Itadori?",
     options: ["Baixa com bunda grande", "Alta com bunda grande", "Alta com Peitos grandes", "Baixa com peitos grandes"],
     answer: 1
   },
